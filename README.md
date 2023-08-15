@@ -9,7 +9,7 @@
 
 ## Methodology:
 Algorithms being tested:
-LSA with TF-IDF, BERTopic, and OpenAI.
+LSA with TF-IDF, BERTopic + keyBERT, and OpenAI.
 
 How will model performance be determined? 
 - Each model will be scored based on how humans interpret the coherence of the topics. 
