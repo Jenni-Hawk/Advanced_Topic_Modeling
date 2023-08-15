@@ -13,10 +13,10 @@
 - Classic ML:
   - LSA with TF-IDF, 
 
-<ins>Deep Learning</ins>
-Sentence Transformers + Classic ML:
-- BERTopic + keyBERT
-- BERTopic + OpenAI
+- Deep Learning
+  - Sentence Transformers + Classic ML:
+    - BERTopic + keyBERT
+    - BERTopic + OpenAI
 
 How will model performance be determined? 
 - Each model will be scored based on how humans interpret the coherence of the topics. 
