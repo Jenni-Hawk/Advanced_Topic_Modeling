@@ -8,7 +8,7 @@
 
 
 ## Methodology:
-Algorithms being tested:
+<ins>Algorithms being tested:</ins>
 
 Classic ML:
 LSA with TF-IDF, 
