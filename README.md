@@ -11,8 +11,8 @@
 Algorithms being tested:
 LSA with TF-IDF, BERTopic, and OpenAI.
 
-How will models be scored? 
-- Each will be scored based on how humans interpret the coherence of the topics. 
+How will model performance be determined? 
+- Each model will be scored based on how humans interpret the coherence of the topics. 
 - A random sampling of content is taken from each topic. 'Intruder' content is randomly injected into this content. Humans are asked to identify the intruder content. Scoring is based on how many times humans can correctly identify the intruder content. This indicates the strength of coherence of a topic that an algorithm creates.   
 
 
