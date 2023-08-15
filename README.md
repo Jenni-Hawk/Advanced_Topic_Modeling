@@ -4,7 +4,7 @@
 - For topic modeling, how does deep learning compare to classic machine learning models? 
 - Which model(s) bring the best human comprehension to the topics it defines? 
 - Which model(s) can make us feel most confident that they're accurately defining the topics? 
-- Can OpenAI create an improvement in model performance?  
+- Can OpenAI create an improvement in model performance? Are there other pros / cons that emerge through the process? 
 
 
 ## Methodology:
