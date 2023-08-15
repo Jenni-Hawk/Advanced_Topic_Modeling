@@ -10,8 +10,8 @@
 ## Methodology:
 <ins>Algorithms being tested:</ins>
 
-Classic ML:
-LSA with TF-IDF, 
+- Classic ML:
+  - LSA with TF-IDF, 
 
 Sentence Transformers + Classic ML:
 BERTopic + keyBERT
