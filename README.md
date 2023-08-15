@@ -9,7 +9,13 @@
 
 ## Methodology:
 Algorithms being tested:
-LSA with TF-IDF, BERTopic + keyBERT, and OpenAI.
+
+Classic ML:
+LSA with TF-IDF, 
+
+Sentence Transformers + Classic ML:
+BERTopic + keyBERT
+BERTopic + OpenAI
 
 How will model performance be determined? 
 - Each model will be scored based on how humans interpret the coherence of the topics. 
