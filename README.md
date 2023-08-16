@@ -16,14 +16,14 @@
   - LSA with TF-IDF
 
 - Deep Learning combined with Classic ML Techniques
-  - [BERTopic](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview) + keyBERT
+  - [BERTopic](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview)
     - Embed Documents: Converts documents to numerical representations Default: Sentence Transformers = "all-MiniLM-L6-v2" 
     - Dimensionality Reduction: After creating numerical representations of docs dimensionality reduction needs to occur to deal with curse of dimensionality. Default: UMAP
-    - Cluster Documents: Default: HDBSCAN used because it can identify outliers and finds clusters of different shapes.  
-    - Bag-of-Words: Default: CountVectorizer. To get a topic representation technique that makes little to no assumption on the expected structure of the clusters. It combines all documents in a cluster into a single document and counts how often each word appears in each cluster. 
-    - Topic representation: c-TFIDF. From the generated bag-of-words representation, we want to know what makes one cluster different from another. Which words are typical for cluster 1 and not so much for all other clusters? To do this, TF-IDF is modified so that it considers topics (i.e., clusters) instead of documents. 
+    - Cluster Documents: HDBSCAN used because it can identify outliers and finds clusters of different shapes.  
+    - Bag-of-Words: To get a topic representation technique that makes little to no assumption on the expected structure of the clusters. It combines all documents in a cluster into a single document and counts how often each word appears in each cluster. Default: CountVectorizer. 
+    - Topic representation: From the generated bag-of-words representation, we want to know what makes one cluster different from another. Which words are typical for cluster 1 and not so much for all other clusters? TF-IDF is used, but modified so that it considers topics (i.e., clusters) instead of documents. 
 
-Fine Tune the Topic Representation (the c-TF-IDF topics)
+- Fine Tune the Topic Representation (the c-TF-IDF topics)
 Determine if/how this can be improved with these models:
 
 - BERTopic + keyBERTInspired: Can increase the coherence and reduces stopwords from the resulting topic representations
