@@ -5,7 +5,7 @@
 - Which model(s) bring the best human comprehension to the topics it defines? 
 - Which model(s) can make us feel most confident that they're accurately defining the topics? 
 - Can OpenAI create an improvement in model performance?
-- Are there any unexpected pros / cons that emerge through the process? 
+- What are the pros / cons that emerge through the process? 
 
 
 ## Methodology:
