@@ -1,7 +1,8 @@
 # Advanced_Topic_Modeling Research
 
 ## Objectives: 
-- For topic modeling, how does deep learning compare to classic machine learning models? 
+- For topic modeling, how do deep learning models perform against classic machine learning models?
+    - How does a combination of deep learning + classic ML techniques (via BERTopic building block modeling perform and what optimizations perform best on the content?  
 - Which model(s) bring the best human comprehension to the topics it defines? 
 - Which model(s) can make us feel most confident that they're accurately defining the topics? 
 - Can OpenAI create an improvement in model performance?
