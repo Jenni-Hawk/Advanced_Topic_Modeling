@@ -23,7 +23,7 @@
         - Dimensionality Reduction: UMAP. After creating numerical representations of docs dimensionality reduction needs to occur to deal with curse of dimensionality. 
         - Cluster Documents: HDBSCAN used because it can identify outliers and finds clusters of different shapes.  
         - Bag-of-Words: CountVectorizer. This appproach used because it won't making any assumptions based on the expected structure of clusters. It combines all documents in a cluster into a single document. That, very long, document then represents the cluster. Count how often each word appears in each cluster. This bag-of-words representation is therefore on a cluster level and not on a document level.
-        - c-TFIDF (Topic representation. 
+        - Topic representation: c-TFIDF. From the generated bag-of-words representation, we want to know what makes one cluster different from another. Which words are typical for cluster 1 and not so much for all other clusters? To solve this, we need to modify TF-IDF such that it considers topics (i.e., clusters) instead of documents. 
 - keyBERTInspired: Can increase the coherence and reduces stopwords from the resulting topic representations
 - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more. 
 
