@@ -18,7 +18,7 @@
 - Deep Learning:
   - Sentence Transformers + Classic ML:
     - BERTopic + keyBERT
-        - BERTopic Defaults: Sentence Transformers (Embedding Extraction), UMAP (Dimensionality Reduction), HDBSCAN (Clustering), CountVectorizer (Bag-of-Words approach. This approach used because it's not making any assumptions on what clusters look like. Works on cluster level - not document level.) c-TFIDF (Topic representation on a cluster - not a document level) 
+        - [BERTopic Defaults](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview): Sentence Transformers (Embedding Extraction), UMAP (Dimensionality Reduction), HDBSCAN (Clustering), CountVectorizer (Bag-of-Words approach used because it won't making any assumptions on what clusters look like. It works on cluster level - not document level. c-TFIDF (Topic representation. 
         - keyBERTInspired: Can increase the coherence and reduces stopwords from the resulting topic representations
     - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more. 
 
