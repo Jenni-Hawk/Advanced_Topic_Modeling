@@ -16,8 +16,7 @@
   - LSA with TF-IDF
 
 - Deep Learning combined with Classic ML Techniques
-  - BERTopic + keyBERT
-    - [BERTopic Defaults](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview):
+  - [BERTopic](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview) + keyBERT
     - Embed Documents: Converts documents to numerical representations Default: Sentence Transformers = "all-MiniLM-L6-v2" 
     - Dimensionality Reduction: After creating numerical representations of docs dimensionality reduction needs to occur to deal with curse of dimensionality. Default: UMAP
     - Cluster Documents: Default: HDBSCAN used because it can identify outliers and finds clusters of different shapes.  
