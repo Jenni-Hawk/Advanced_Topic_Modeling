@@ -15,7 +15,7 @@
 - Classic ML:
   - LSA with TF-IDF, 
 
-- Deep Learning
+- Deep Learning:
   - Sentence Transformers + Classic ML:
     - BERTopic + keyBERT
     - BERTopic + OpenAI
