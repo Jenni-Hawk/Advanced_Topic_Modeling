@@ -18,7 +18,8 @@
 - Deep Learning:
   - Sentence Transformers + Classic ML:
     - BERTopic + keyBERT
-    - BERTopic + OpenAI
+        - keyBERTInspired: Can increase the coherence and reduces stopwords from the resulting topic representations
+    - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more. 
 
 How will model performance be determined? 
 - Each model will be scored based on how humans interpret the coherence of the topics. 
