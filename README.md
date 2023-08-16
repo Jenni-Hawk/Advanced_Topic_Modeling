@@ -13,7 +13,7 @@
 <ins>Algorithms being tested:</ins>
 
 - Classic ML:
-  - LSA with TF-IDF
+  - LSA with TF-IDF: This model was selected because it was part of an initial classic NLP algorithm [project](https://github.com/Jenni-Hawk/NLP_TopicModeling/blob/main/NLP_Presentation.pdf) that was conducted last year. Analysis was already done on this model and therefore made a good base model to test against. 
 
 - Deep Learning combined with Classic ML Techniques
   - [BERTopic Algorithm Overview](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview)
