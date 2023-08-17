@@ -26,7 +26,7 @@
 - Fine Tune the Topic Representation (the c-TF-IDF topics)
 Determine if/how this can be improved with these models:
 
-    - BERTopic + keyBERTInspired: Can increase the coherence and reduces stopwords from the resulting topic representations
+    - BERTopic + [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__): Can increase the coherence and reduces stopwords from the resulting topic representations
     - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more. 
 
 <ins>How will model performance be determined?</ins>
