@@ -24,7 +24,7 @@
     - Bag-of-Words: To get a topic representation technique that makes little to no assumption on the expected structure of the clusters. It combines all documents in a cluster into a single document and counts how often each word appears in each cluster. Default: CountVectorizer. 
     - Topic representation: From the generated bag-of-words representation, we want to know what makes one cluster different from another. Which words are typical for cluster 1 and not so much for all other clusters? TF-IDF is used, but modified so that it considers topics (i.e., clusters) instead of documents. 
 
-    - Fine Tune the Topic Representation (the c-TF-IDF topics)
+        - Fine Tune the Topic Representation (the c-TF-IDF topics)
       Determine if/how this can be improved with these models:
 
         - BERTopic + [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) Can increase the coherence and reduces stopwords from the resulting topic representations
