@@ -1,13 +1,10 @@
 # Advanced_Topic_Modeling Research
 
 ## Objectives: 
-- For topic modeling, how does deep learning perform against classic machine learning?
-    - How does a combination of deep learning + classic ML techniques (via BERTopic building blocks) perform? What optimizations perform best given the specific content?  
-- Which model(s) bring the best human comprehension to the topics it defines? 
-- Which model(s) can make us feel most confident that they're accurately defining the topics? 
-- Can OpenAI create an improvement in model performance?
+- Conducting research on topic modeling algorithms to determine which can best uncover topics while delivering high human coherency. 
+- Goal is to increase confidence in business decision making when using topic modeling algorithms to understand consumers. 
+- Algorithms being tested: BERTopic, keyBERT, BERTopic + OpenAI, BERTopic + Llama 2, and classic LSA with TF-IDF
 - What are the pros / cons that emerge through the process? 
-
 
 ## Methodology:
 <ins>Algorithms being tested:</ins>
@@ -15,7 +12,7 @@
 - Classic ML:
   - LSA with TF-IDF: This model was selected because it was part of an initial classic NLP algorithm [project](https://github.com/Jenni-Hawk/NLP_TopicModeling/blob/main/NLP_Presentation.pdf) that was conducted last year. Analysis was already done on this model and therefore made a good base model to test against. 
 
-- Deep Learning combined with Classic ML Techniques
+- Sentence Transformers combined with Classic ML Techniques
   - [BERTopic Algorithm Overview](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview)
     
     - Embed Documents: Converts documents to numerical representations Default: Sentence Transformers = "all-MiniLM-L6-v2" 
