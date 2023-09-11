@@ -22,13 +22,12 @@
     - Topic representation: From the generated bag-of-words representation, we want to know what makes one cluster different from another. Which words are typical for cluster 1 and not so much for all other clusters? TF-IDF is used, but modified so that it considers topics (i.e., clusters) instead of documents. 
 
        
-
   - BERTopic with [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) Can increase the coherence and reduces stopwords from the resulting topic representations
   - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more.
   - BERTopic + Llama 2
 
 <ins>How will model performance be determined?</ins>
-- Each model will be scored based on how humans interpret the coherence of the topics. 
+- Each model will be scored based on how well humans interpret the coherence of the topics. 
 - Within each model, a random sampling of content is taken from each topic. 'Intruder' content is randomly injected into this content. Humans are asked to identify the intruder content. Scoring is based on how many times humans can correctly identify the intruder content. This indicates the strength of coherence of a topic that an algorithm creates.   
 
 
