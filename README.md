@@ -7,7 +7,7 @@
 - What are the pros / cons that emerge through the process? 
 
 ## Methodology:
-This advanced topic modeling research project is an expansion of a classic NLP [project](https://github.com/Jenni-Hawk/NLP_TopicModeling/blob/main/NLP_Presentation.pdf) that was conducted last year. LSA with TF-IDF was intuitively the best performing of the traditional NLP models and will be in this research study as a starting point to compare more advanced modeling techniques. 
+This advanced topic modeling research project is an expansion of a classic NLP [project](https://github.com/Jenni-Hawk/NLP_TopicModeling/blob/main/NLP_Presentation.pdf) that was conducted last year. LSA with TF-IDF was intuitively the best performing of the traditional NLP models and will be included in this research as a starting comparison to more advanced modeling techniques. 
 
 <ins>How will performance of each model be determined?</ins>
 - Each model will be scored based on how well humans interpret the coherence of the topics.
