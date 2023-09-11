@@ -23,9 +23,9 @@
 
        
 
-      - BERTopic with [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) Can increase the coherence and reduces stopwords from the resulting topic representations
-      - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more.
-      - BERTopic + Llama 2
+  - BERTopic with [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) Can increase the coherence and reduces stopwords from the resulting topic representations
+  - BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more.
+  - BERTopic + Llama 2
 
 <ins>How will model performance be determined?</ins>
 - Each model will be scored based on how humans interpret the coherence of the topics. 
