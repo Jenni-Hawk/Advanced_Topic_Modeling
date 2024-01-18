@@ -1,10 +1,9 @@
 # Advanced_Topic_Modeling Research
 
 ## Objectives: 
-- Conducting research on topic modeling algorithms to determine which can best uncover topics while delivering high human coherency. 
+- Conduct research on topic modeling algorithms to determine which can best uncover topics while delivering high human coherency. 
 - Goal is to increase confidence in business decision making when using topic modeling algorithms to understand consumers. 
 - Algorithms being tested: BERTopic, keyBERT, BERTopic + OpenAI, BERTopic + Llama 2, and classic LSA with TF-IDF
-- What are the pros / cons that emerge through the process? 
 
 ## Methodology:
 This advanced topic modeling research project is an expansion of a classic NLP [project](https://github.com/Jenni-Hawk/NLP_TopicModeling/blob/main/NLP_Presentation.pdf) that was conducted last year. LSA with TF-IDF was intuitively the best performing of the traditional NLP models and will be included in this research as a starting comparison to more advanced modeling techniques. 
