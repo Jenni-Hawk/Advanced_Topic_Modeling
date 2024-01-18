@@ -15,10 +15,9 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 #### Algorithms Researched:
 - LSA with TF-IDF  
 - [BERTopic](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview) with Sentence Transformers 
-- BERTopic with [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) Can increase the coherence and reduces stopwords from the resulting topic representations
-- BERTopic + OpenAI: Can be a more powerful way to describe the clusters. ChatGPT or other models can generate lables, summaries, phrases, keywords and more.
-- BERTopic + Llama 2
-
+- BERTopic with [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) 
+- BERTopic + OpenAI
+- BERTopic + Llama 2 
 
 
 
