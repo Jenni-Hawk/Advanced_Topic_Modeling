@@ -15,7 +15,10 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 
 #### Algorithms Researched:
 - LSA with TF-IDF  
-- BERTopic tested with various Sentence Transformers (BAII/bge-small-en, BAII/bge-large-en-v1.5, all-mpnet-base-v2)
+- BERTopic tested with various Sentence Transformers
+  - BAII/bge-small-en
+  - BAII/bge-large-en-v1.5
+  - all-mpnet-base-v2
 - BERTopic + GPT4
 - BERTopic + Llama 2 
 
