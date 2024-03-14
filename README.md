@@ -14,8 +14,8 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 
 #### Algorithms Researched:
 - LSA with TF-IDF  
-- [BERTopic](https://maartengr.github.io/BERTopic/algorithm/algorithm.html#visual-overview) with Sentence Transformers 
-- BERTopic with [keyBERTInspired](https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) 
+- BERTopic tested with various Sentence Transformers (BAII/bge-small-en, BAII/bge-large-en-v1.5, all-mpnet-base-v2)
+(https://maartengr.github.io/BERTopic/api/representation/keybert.html#bertopic.representation._keybert.KeyBERTInspired.__init__) 
 - BERTopic + OpenAI
 - BERTopic + Llama 2 
 
