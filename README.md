@@ -9,7 +9,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 
 #### Algorithms Tested Against Each Other:
 - LSA with TF-IDF
-- BERTopic + GPT4
+- (BERTopic + GPT4)[https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/BERTopic_GPT4_retweets_copy.ipynb]
 - BERTopic + Llama 2
 - Sentence Transformers Tested
   - all-MiniLM-L6-v2
