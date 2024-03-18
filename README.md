@@ -24,8 +24,10 @@ This advanced topic modeling research project is an expansion of a classic NLP [
   - [LSA Scoring Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/LSA_Scoring_WITH_RETWEETS_Intruders.ipynb)
 
 #### Research Findings
+- BERTopic greatly outperformed LSA on human topic coherence scoring
+- GPT4 appeared to be more accurate than LLAMA2 in delivering topic labels but LLAMA2 is a solid fallback to OpenAI for this particular use case. 
 - [Case Study: Business Audience](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Tweets%20Case%20Study%20Tech.pdf)
-- Test Summary Sheet
+- [Test Summary Sheet](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
 
 #### Secondary Objective
 - Determine the impact of including retweets versus removing retweets
