@@ -12,7 +12,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
   - Took top 75% of tweets based on probability
 - BERTopic vs KeyBERT
 - [BERTopic + GPT4](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/BERTopic_GPT4_retweets_copy.ipynb)
-- BERTopic + Llama 2 (Llama-2-13b-chat-hf)
+- [BERTopic + Llama 2](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Llama2_retweets_BAAI.ipynb) (Llama-2-13b-chat-hf)
 - Sentence Transformers Tested
   - all-MiniLM-L6-v2
   - BAII/bge-small-en
