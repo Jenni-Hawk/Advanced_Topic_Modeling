@@ -8,13 +8,12 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 - Conduct research on topic modeling algorithms to determine which can best uncover topics and deliver high human coherency. 
 
 #### Algorithms Tested Against Each Other:
-- LSA with TF-IDF  
-- BERTopic tested with various Sentence Transformers
-  - BAII/bge-small-en
-  - BAII/bge-large-en-v1.5
-  - all-mpnet-base-v2
+- LSA with TF-IDF
 - BERTopic + GPT4
 - BERTopic + Llama 2
+- Sentence Transformers Tested
+  - all-MiniLM-L6-v2
+  - BAII/bge-small-en
 
 #### How will performance of each model be determined?</ins>
 - LSA vs BERTopic will be quantitatively scored based on how well humans interpret the coherence of topics.
