@@ -8,7 +8,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 - Test BERTopic versus LSA to determine, from a quantitative scoring perspective, which can deliver more accuracy.
 
 #### Algorithms Tested Against Each Other:
-- [LSA with TF-IDF](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling_Tweets/blob/main/LSA_TFIDF_TopicMod_WITH_RETWEETS.ipynb) vs BERTopic vs KeyBERT
+- [LSA with TF-IDF](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling_Tweets/blob/main/LSA_TFIDF_TopicMod_WITH_RETWEETS.ipynb) vs [BERTopic vs KeyBERT](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling_Tweets/blob/main/BERTopic_and_KeyBERT_Model_WITH_RETWEETS.ipynb)
   - LSA: take top 75% of tweets based on probability
   - BERTopic: used all-MiniLM-L6-v2 sentence transformer
  
