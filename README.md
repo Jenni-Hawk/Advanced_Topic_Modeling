@@ -35,7 +35,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 ## 🎯 Additional Objective
 - Determine the impact of including retweets versus removing retweets
 - Findings:
-  - There's a low model coherence score when re-tweets are removed which means the content within each topic is not distinctly identified as belonging to a specific topic.
+  - [There's a low model coherence score](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling_Tweets/blob/main/Test%20Summary.pdf) when re-tweets are removed which means the content within each topic is not distinctly identified as belonging to a specific topic.
   - This makes sense given how people use Twitter to express themselves. Re-tweeting is a way to communicate support of an idea. Therefore, removing duplicates does not provide an accurate understanding of what the top topics are from a volume perspective. This volume perspective is critically important for business people to understand the scale and influence of a topic.
     - As a best practice for tweet analysis, I recommend removing duplicate tweets as a secondary step in the analysis process (not a first step) to double check that a latent topic doesn't exist when duplicates are removed.
 
