@@ -13,7 +13,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
  
 #### How will performance of the models be determined?</ins>
 - LSA vs BERTopic will be quantitatively scored based on how well humans interpret the coherence of topics.
-- For each model, a random sampling of content is taken from each topic. 'Intruder' content is randomly injected into each topic. Humans are asked to identify the intruder content. Scoring is based correctly identify the intruder content. This indicates the strength of coherence of a topic that an algorithm creates.
+- For each model, a random sampling of content is taken from each topic. We'll call this "Intruder" content. "Intruder" content is randomly injected into each topic. Humans are asked to identify the intruder content. Scoring is based correctly identify the intruder content. This indicates the strength of coherence of a topic that an algorithm creates.
   - [BERTopic Scoring Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/BERTopic_Scoring_WITH_RETWEETS.ipynb)
   - [LSA Scoring Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/LSA_Scoring_WITH_RETWEETS_Intruders.ipynb)
 
