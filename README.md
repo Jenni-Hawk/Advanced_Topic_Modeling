@@ -24,18 +24,18 @@ This advanced topic modeling research project is an expansion of a classic NLP [
   - [BERTopic + Llama 2 Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Llama2_retweets_BAAI.ipynb) (Llama-2-13b-chat-hf)
     - Begin to explore other sentence transformers: BAII/bge-small-en
 
-## Research Findings
+## 📓 Research Findings
 - BERTopic greatly outperformed LSA on human topic [coherence scoring](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
 - GPT4 appeared to be more accurate than Llama2 in delivering topic labels but Llama2 is a solid fallback to OpenAI in this particular use case.
   - It would be interesting to dive deeper into understanding LLM performance in topic labeling and get a quantitative understanding of this through a human preference scoring methodology. One issue arount this is the stochastic nature of OpenAI. While OpenAI promised developers a seed state for reproducibility it hadn't yet materialized when I last checked on it. 
 - [Case Study: Business Audience](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Tweets%20Case%20Study%20Tech.pdf)
 - [Test Summary Sheet](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
 
-## Additional Objective
+## 🎯 Additional Objective
 - Determine the impact of including retweets versus removing retweets
 - Findings: Given how people use Twitter to express themselves, removing duplicates does not provide an accurate understanding of what the top topics are from a volume perspective. This volume perspective is critically important for business people to understand the scale and influence of a topic. As a best practice for tweet analysis, I recommend removing duplicate tweets as a secondary step in the analysis process (not a first step) to double check that a latent topic doesn't exist when duplicates are removed. 
 
-## Further Work
+## 💡 Further Work
 - Upon completing this project I was inspired to further expand this knowledge into areas of classic consumer research: The Survey.
 - I wanted to challenge conventions that consumer researchers have about what's possible in analyzing responses to open ended questions, and I wanted to see how far I could push the length of text and gain accurate topic categorization.
 - I was inspired to test more sentence transformers: all-mpnet-base-v2 and Cohere's Embed 3
