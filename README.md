@@ -37,6 +37,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 
 ## Further Work
 - Upon completing this project I was inspired to further expand this knowledge into areas of classic consumer research: The Survey.
-- I wanted to challenge conventions that consumer researchers have about what's possible in analyzing responses to open ended questions and I wanted to see how far I could push the length of text and gain accurate topic categorization.
+- I wanted to challenge conventions that consumer researchers have about what's possible in analyzing responses to open ended questions, and I wanted to see how far I could push the length of text and gain accurate topic categorization.
 - I was inspired to test more sentence transformers: all-mpnet-base-v2 and Cohere's Embed 3
+- I also wanted to explore further AI ecosystems that can provide ease of workflow but also give me advanced GPU power. 
 
