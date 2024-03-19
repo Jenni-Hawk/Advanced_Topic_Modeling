@@ -1,6 +1,6 @@
 # Advanced Topic Modeling Research: Tweets
 
-*📖 ## Background:
+## 📖 Background:
 This advanced topic modeling research project is an expansion of a classic NLP [project](https://github.com/Jenni-Hawk/NLP_TopicModeling/blob/main/NLP_Presentation.pdf) that I conducted with the objective to uncover the key topics amongst 34,000 tweets. At that time, LSA with TF-IDF was the best performing of the traditional NLP models. Given the rapid pace of NLP advancements it was important to test newer, more modern algorithms and explore various sentence transformers and LLMs.
 
 ## Primary Objectives: 
