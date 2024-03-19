@@ -35,5 +35,8 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 - Determine the impact of including retweets versus removing retweets
 - Findings: Given how people use Twitter to express themselves, removing duplicates does not provide an accurate understanding of what the top topics are from a volume perspective. This volume perspective is critically important for business people to understand the scale and influence of a topic. As a best practice for tweet analysis, I recommend removing duplicate tweets as a secondary step in the analysis process (not a first step) to double check that a latent topic doesn't exist when duplicates are removed. 
 
-
+## Further Work
+- Upon completing this project I was inspired to further expand this knowledge into areas of classic consumer research: The Survey.
+- I wanted to challenge conventions that consumer researchers have about what's possible in analyzing responses to open ended questions and I wanted to see how far I could push the length of text and gain accurate topic categorization.
+- I was inspired to test more sentence transformers: all-mpnet-base-v2 and Cohere's Embed 3
 
