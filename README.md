@@ -9,7 +9,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 
 #### Algorithms Tested Against Each Other:
 - LSA with TF-IDF vs BERTopic vs KeyBERT
-  - LSA took top 75% of tweets based on probability
+  - Methodology for LSA was to take top 75% of tweets based on probability
  
 #### How will performance of the models be determined?</ins>
 - LSA vs BERTopic will be quantitatively scored based on how well humans interpret the coherence of topics.
