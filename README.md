@@ -22,7 +22,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 - Begin the exploration of how GPT4 can provide intuitive topic labels and begin to compare those labels to Llama2
   - [BERTopic + GPT4 Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/BERTopic_GPT4_retweets_copy.ipynb)
   - [BERTopic + Llama 2 Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Llama2_retweets_BAAI.ipynb) (Llama-2-13b-chat-hf)
-  - Begin to explore other sentence transformers: BAII/bge-small-en
+    - Begin to explore other sentence transformers: BAII/bge-small-en
 
 ## Research Findings
 - BERTopic greatly outperformed LSA on human topic [coherence scoring](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
