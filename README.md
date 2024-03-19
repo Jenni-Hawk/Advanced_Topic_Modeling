@@ -26,7 +26,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 
 ## 🔍 Research Findings
 - BERTopic greatly outperformed LSA on human topic [coherence scoring](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
-- GPT4 appeared to be more accurate than Llama2 in delivering topic labels but Llama2 appears to be viable fallback for this use case if the OpenAI API isn't available.
+- BERTopic + GPT4 + all-MiniLM-L6-v2 appeared to be more accurate than Llama2, from an intuitive perspective, for topic labels but BERTopic + Llama2 + BAII/bge-small-en appears to be viable fallback for this use case if the OpenAI API isn't available.
   - It would be interesting to dive deeper into understanding LLM performance in topic labeling and get a quantitative understanding of this through a human preference scoring methodology. One issue arount this is the stochastic nature of OpenAI. While OpenAI promised developers a seed state for reproducibility it hadn't yet materialized when I last checked on it. 
 - [Case Study: Business Audience](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Tweets%20Case%20Study%20Tech.pdf)
 - [Test Summary Sheet](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
