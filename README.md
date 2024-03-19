@@ -24,7 +24,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
   - [BERTopic + Llama 2 Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Llama2_retweets_BAAI.ipynb) (Llama-2-13b-chat-hf)
     - Begin to explore other sentence transformers: BAII/bge-small-en
 
-## 📓 Research Findings
+## 🔍 Research Findings
 - BERTopic greatly outperformed LSA on human topic [coherence scoring](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
 - GPT4 appeared to be more accurate than Llama2 in delivering topic labels but Llama2 is a solid fallback to OpenAI in this particular use case.
   - It would be interesting to dive deeper into understanding LLM performance in topic labeling and get a quantitative understanding of this through a human preference scoring methodology. One issue arount this is the stochastic nature of OpenAI. While OpenAI promised developers a seed state for reproducibility it hadn't yet materialized when I last checked on it. 
