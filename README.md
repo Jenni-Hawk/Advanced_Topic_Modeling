@@ -13,7 +13,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
   - BERTopic: used all-MiniLM-L6-v2 sentence transformer
  
 #### How will performance of the models be determined?</ins>
-- LSA vs BERTopic will be quantitatively scored based on how well humans interpret the coherence of topics.
+- LSA vs BERTopic will be quantitatively scored based on how humans interpret the coherence of the content within the topics.
 - For each model, a random sampling of content is taken from each topic. We'll call this "Intruder" content. "Intruder" content is randomly injected into each topic. Humans are asked to identify the intruder content. Scoring is based correctly identify the intruder content. This indicates the strength of coherence of a topic that an algorithm creates.
   - [BERTopic Scoring Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/BERTopic_Scoring_WITH_RETWEETS.ipynb)
   - [LSA Scoring Code](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/LSA_Scoring_WITH_RETWEETS_Intruders.ipynb)
@@ -27,7 +27,7 @@ This advanced topic modeling research project is an expansion of a classic NLP [
 ## 🔍 Research Findings
 - BERTopic greatly outperformed LSA on human topic [coherence scoring](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
 - From an intuitive perspective, BERTopic + GPT4 + all-MiniLM-L6-v2 appeared to deliver more accurate topic labels than Llama2 + BAII/bge-small-en. However Llama2 + BAII/bge-small-en seems to be a viable fallback for this use case if the OpenAI API isn't available.
-  - It would be interesting to dive deeper into understanding LLM performance in topic labeling and get a quantitative understanding of this through a human preference scoring methodology. One issue arount this is the stochastic nature of OpenAI. While OpenAI promised developers a seed state for reproducibility it hadn't yet materialized when I last checked on it. 
+  - A next evolution would be to implement a quantitative research study where humans determine which of the LLM topic labels are best.  One issue arount this is the stochastic nature of OpenAI. While OpenAI promised developers a seed state for reproducibility it hadn't yet materialized when I last checked on it. 
 - [Case Study: Business Audience](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Tweets%20Case%20Study%20Tech.pdf)
 - [Test Summary Sheet](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling/blob/main/Test%20Summary.pdf)
 
