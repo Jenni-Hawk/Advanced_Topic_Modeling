@@ -40,8 +40,9 @@ This advanced topic modeling research project is an expansion of a classic NLP [
     - As a best practice for tweet analysis, I recommend removing duplicate tweets as a secondary step in the analysis process (not a first step) to double check that a latent topic doesn't exist when duplicates are removed.
 
 ## 💡 Further Work
-- Upon completing this project I was inspired to further expand this knowledge into areas of classic consumer research: The Survey.
+- Upon completing this project I was inspired to further expand this knowledge and apply it to classic consumer research: The Survey.
 - I wanted to challenge conventions that consumer researchers have about what's possible in analyzing responses to open ended questions, and I wanted to see how far I could push the length of text and gain accurate topic categorization.
 - I was inspired to test more sentence transformers: all-mpnet-base-v2 and Cohere's Embed 3.
-- I also wanted to explore further AI ecosystems that can provide ease of workflow but also give me advanced GPU power. 
+- I also needed to explore further AI ecosystems that can provide ease of workflow but also give me advanced GPU power
+- This further work can be found [here](https://github.com/Jenni-Hawk/Advanced_Topic_Modeling_2_Survey/blob/main/README.md)
 
